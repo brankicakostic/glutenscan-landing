@@ -37,7 +37,7 @@ export default function Home() {
         <h2>Prijava za rani pristup</h2>
         <p>Skeniraj QR kod ili klikni na dugme da popuniš formu:</p>
         <img src="/qr-glutenscan-forma.png" alt="QR kod za prijavu" style={{ width: 200, margin: '1rem 0' }} />
-        <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform" target="_blank" rel="noreferrer">
+        <a href="https://forms.gle/1qUWgz9D3onJHsmR7" target="_blank" rel="noreferrer">
           <button style={{
             backgroundColor: '#8C775D',
             color: 'white',
