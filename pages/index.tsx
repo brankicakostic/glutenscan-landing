@@ -23,10 +23,10 @@ export default function Home() {
           <iframe
             src="https://forms.gle/rjVt9oGqBZW1kjXh7"
             width="100%"
-            height="600"
-            frameBorder="0"
-            marginHeight="0"
-            marginWidth="0"
+            height={600}
+            frameBorder={0}
+            marginHeight={0}
+            marginWidth={0}
             className="w-full rounded shadow"
             title="Prijava za GlutenScan"
           >
