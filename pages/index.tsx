@@ -6,47 +6,64 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
-    <div style={{
-      margin: 0,
-      fontFamily: "'Manrope', sans-serif",
-      backgroundColor: '#FAF8F3',
-      color: '#3E2C22',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      padding: '2rem',
-    }}>
-      <header style={{ display: 'flex', alignItems: 'center', marginBottom: '2rem' }}>
-        <img src="/logo-mini.svg" alt="GlutenScan logo" style={{ width: 40, height: 40, marginRight: '1rem' }} />
+       <div
+      style={{
+        margin: 0,
+        fontFamily: 'Manrope, sans-serif',
+        backgroundColor: '#FAF8F3',
+        color: '#3E2C22',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        padding: '2rem',
+      }}
+    >
+      <header style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2rem', textAlign: 'center' }}>
+        <img src="/logo-mini.svg" alt="GlutenScan logo" style={{ width: '100px', height: 'auto', marginBottom: '1rem' }} />
         <h1 style={{ fontSize: '2rem', margin: '0.5rem 0' }}>GlutenScan dolazi uskoro</h1>
       </header>
 
-      <p style={{ maxWidth: 600, textAlign: 'center', fontSize: '1.1rem' }}>
-        Aplikacija za brzo prepoznavanje glutena i alergena putem skeniranja barkoda.
-        Pridružite nam se i budite među prvima koji će je koristiti.
+      <p style={{ maxWidth: '600px', textAlign: 'center', fontSize: '1.1rem' }}>
+        Aplikacija za brzo prepoznavanje glutena i alergena putem skeniranja barkoda. Pridružite nam se i budite među prvima koji će je koristiti.
       </p>
 
-      <div style={{
-        marginTop: '2rem',
-        background: 'white',
-        padding: '2rem',
-        borderRadius: '12px',
-        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
-        textAlign: 'center'
-      }}>
+      <div
+        style={{
+          marginTop: '2rem',
+          background: 'white',
+          padding: '2rem',
+          borderRadius: '12px',
+          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+          textAlign: 'center',
+        }}
+      >
         <h2>Prijava za rani pristup</h2>
         <p>Skeniraj QR kod ili klikni na dugme da popuniš formu:</p>
-        <img src="/qr-glutenscan-forma.png" alt="QR kod za prijavu" style={{ width: 200, margin: '1rem 0' }} />
+        <div style={{ position: 'relative', display: 'inline-block', margin: '1rem auto' }}>
+          <img
+            src="/arrow-left.png"
+            alt="Strelica ka QR kodu"
+            style={{ position: 'absolute', left: '-60px', top: '50%', transform: 'translateY(-50%) rotate(-10deg)', width: '50px' }}
+          />
+          <img
+            src="/qr-glutenscan-forma.png"
+            alt="QR kod za prijavu"
+            style={{ width: '200px', display: 'block' }}
+          />
+          <div style={{ fontFamily: 'Quicksand, cursive', fontSize: '1rem', marginTop: '0.5rem' }}>Prijavi se za rani pristup</div>
+        </div>
         <a href="https://forms.gle/1qUWgz9D3onJHsmR7" target="_blank" rel="noreferrer">
           <button style={{
-            backgroundColor: '#8C775D',
-            color: 'white',
-            border: 'none',
-            padding: '0.8rem 1.5rem',
-            fontSize: '1rem',
-            borderRadius: '8px',
-            cursor: 'pointer'
-          }}>
+              backgroundColor: '#8C775D',
+              color: 'white',
+              border: 'none',
+              padding: '0.8rem 1.5rem',
+              fontSize: '1rem',
+              borderRadius: '8px',
+              cursor: 'pointer',
+              marginTop: '1rem',
+            }}
+          >
             Popuni formu
           </button>
         </a>
