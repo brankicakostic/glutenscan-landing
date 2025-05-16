@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
-       <div
+<div
       style={{
         margin: 0,
         fontFamily: 'Manrope, sans-serif',
@@ -35,25 +35,30 @@ export default function Home() {
           borderRadius: '12px',
           boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
           textAlign: 'center',
+          maxWidth: '400px',
+          width: '100%',
         }}
       >
         <h2>Prijava za rani pristup</h2>
         <p>Skeniraj QR kod ili klikni na dugme da popuniš formu:</p>
-        <div style={{ position: 'relative', display: 'inline-block', margin: '1rem auto' }}>
-          <img
-            src="/arrow-left.png"
-            alt="Strelica ka QR kodu"
-            style={{ position: 'absolute', left: '-60px', top: '50%', transform: 'translateY(-50%) rotate(-10deg)', width: '50px' }}
-          />
-          <img
-            src="/qr-glutenscan-forma.png"
-            alt="QR kod za prijavu"
-            style={{ width: '200px', display: 'block' }}
-          />
+        <div style={{ position: 'relative', margin: '1rem auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <div style={{ position: 'relative' }}>
+            <img
+              src="/arrow-left.png"
+              alt="Strelica ka QR kodu"
+              style={{ position: 'absolute', left: '-60px', top: '50%', transform: 'translateY(-50%) rotate(-10deg)', width: '50px' }}
+            />
+            <img
+              src="/qr-glutenscan-forma.png"
+              alt="QR kod za prijavu"
+              style={{ width: '200px', display: 'block' }}
+            />
+          </div>
           <div style={{ fontFamily: 'Quicksand, cursive', fontSize: '1rem', marginTop: '0.5rem' }}>Prijavi se za rani pristup</div>
         </div>
-        <a href="https://forms.gle/1qUWgz9D3onJHsmR7" target="_blank" rel="noreferrer">
-          <button style={{
+        <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform" target="_blank" rel="noreferrer">
+          <button
+            style={{
               backgroundColor: '#8C775D',
               color: 'white',
               border: 'none',
