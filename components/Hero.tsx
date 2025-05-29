@@ -6,12 +6,13 @@ export default function HeroSection(): JSX.Element {
       <div className="max-w-xl mx-auto">
         <img
           src="/logo.svg"
-          alt="GlutenScan Logo"
+          alt="GlutenScan logo aplikacije"
           className="w-32 mx-auto mb-6"
         />
         <h1 className="text-3xl md:text-4xl font-bold text-[#3E2C22] mb-4">
-          GlutenScan dolazi uskoro
+          GlutenScan – Skener bezglutenskih proizvoda
         </h1>
+
         <p className="text-[#3E2C22] text-lg mb-8">
           Aplikacija za brzo prepoznavanje glutena i alergena putem skeniranja
           barkoda. Pridružite nam se i budite među prvima koji će je koristiti.
@@ -26,7 +27,7 @@ export default function HeroSection(): JSX.Element {
           </p>
           <img
             src="/qr-code.png"
-            alt="QR kod za prijavu"
+            alt="QR kod za prijavu na GlutenScan"
             className="w-40 mx-auto mb-2"
           />
           <p className="text-[#3E2C22] text-sm mb-4">
