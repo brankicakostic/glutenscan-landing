@@ -56,7 +56,7 @@ export default function Home() {
           </div>
           <div style={{ fontFamily: 'Quicksand, cursive', fontSize: '1rem', marginTop: '0.5rem' }}>Prijavi se za rani pristup</div>
         </div>
-        <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform" target="_blank" rel="noreferrer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfot9JGN-SYKb8_smKJccdVvSh1la6MSZQlL4jbIcracFYg8w/viewform" target="_blank" rel="noreferrer">
           <button
             style={{
               backgroundColor: '#8C775D',
