@@ -7,9 +7,12 @@ export default function Home() {
     <>
       <HeroSection />
       <AboutGlutenScan />
-      <p className="text-xs text-[#3E2C22] mt-8">
+
+      <footer
+        style={{ marginTop: "3rem", fontSize: "0.9rem", color: "#8C775D" }}
+      >
         © GlutenScan 2025 | Sva prava zadržana
-      </p>
+      </footer>
     </>
   );
 }
