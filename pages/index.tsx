@@ -20,7 +20,7 @@ export default function Home() {
       <footer
         style={{ marginTop: "3rem", fontSize: "0.9rem", color: "#8C775D" }}
       >
-        © GlutenScan 2025 | Sva prava zadržana
+        <p> © GlutenScan 2025 | Sva prava zadržana</p>
       </footer>
     </>
   );

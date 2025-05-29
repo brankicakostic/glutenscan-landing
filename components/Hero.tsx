@@ -14,8 +14,10 @@ export default function HeroSection(): JSX.Element {
         </h1>
 
         <p className="text-[#3E2C22] text-lg mb-8">
-          Aplikacija za brzo prepoznavanje glutena i alergena putem skeniranja
-          barkoda. Pridružite nam se i budite među prvima koji će je koristiti.
+          <strong>Skeniraj, pretraži, proveri. </strong>
+          GlutenScan ti pomaže da saznaš da li je proizvod bez glutena – preko
+          bar-koda, deklaracije ili pretrage sa filterima. Sve na jednom mestu.
+          💚
         </p>
 
         <div className="inline-block p-6 bg-white rounded-lg shadow-lg">

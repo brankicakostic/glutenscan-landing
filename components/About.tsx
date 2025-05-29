@@ -14,9 +14,9 @@ export default function AboutGlutenScan(): JSX.Element {
             {" "}
             baza bezglutenskih proizvoda na domaćem tržištu
           </span>
-          , uz podršku domaćih proizvođača. Aplikacija omogućava brzu i
-          jednostavnu proveru proizvoda skeniranjem bar-koda, uz detaljne
-          informacije o sastavu i sigurnosti.
+          , skeniraj bar-kod, fotografiši deklaraciju ili pretraži proizvode sa
+          filterima. Uz podršku domaćih proizvođača, sve informacije na jednom
+          mestu.
         </p>
 
         <p className="mb-8">
