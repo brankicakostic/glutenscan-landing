@@ -46,6 +46,11 @@ export default function AboutGlutenScan(): JSX.Element {
             alt="Slavuj Grečka logo"
             className="object-contain h-16 md:h-20"
           />
+          <img
+            src="/molendini-logo.png"
+            alt="Molendini logo"
+            className="object-contain h-16 md:h-20"
+          />
         </div>
         <a
           href="https://forms.gle/kgVStCsn1t3tUFqQ8"
