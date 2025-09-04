@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom font (primer, možeš staviti Manrope iz Google Fonts) */
+html {
+  font-family: 'Manrope', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  background-color: #FAF8F3; /* default background */
+  color: #2B1D14; /* default text */
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  @apply font-extrabold tracking-tight;
+}
+
+/* Links */
+a {
+  @apply text-amber-800 hover:opacity-80 transition-colors;
+}
+
+/* Buttons (za bolji izgled default buttona) */
+button {
+  @apply cursor-pointer transition-colors;
+}
+
+/* Footer */
+footer {
+  @apply text-sm text-neutral-600;
+}
